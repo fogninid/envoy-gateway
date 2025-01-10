@@ -4,6 +4,8 @@ on:
     branches:
     - "main"
     - "release/v*"
+    - "envoy_endpoint_lb_status_from_k8s"
+    - "graceful_termination_e2e"
     paths-ignore:
     - "**/*.png"
   pull_request:
